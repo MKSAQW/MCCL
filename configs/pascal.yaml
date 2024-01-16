@@ -16,9 +16,9 @@ criterion:
 conf_thresh: 0.95
 
 feat_ali_weight: 0.1
-feat_nearest: 0.02
+feat_nearest: 0.01
 
-warm_up: 90
+warm_up: 0
 
 F-Drop: True
 
