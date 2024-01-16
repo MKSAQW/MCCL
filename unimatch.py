@@ -441,7 +441,7 @@ def main():
 
             
 
-            loss = (loss_x + loss_u_s1 * 0.25 + loss_u_s2 * 0.25 + loss_u_w_fp * 0.5) / 2.0   # + cfg['feat_ali_weight'] * (loss_feature_1 + loss_feature_2)/2.0
+            loss = (loss_x + loss_u_s1 * 0.25 + loss_u_s2 * 0.25 + loss_u_w_fp * 0.5) / 2.0    + cfg['feat_ali_weight'] * (loss_feature_1 + loss_feature_2)/2.0
 
             loss = loss + cfg['feat_nearest'] * loss_prote
             
@@ -470,7 +470,7 @@ def main():
             total_loss_x.update(loss_x.item())
             total_loss_s.update((loss_u_s1.item() + loss_u_s2.item()) / 2.0)
             total_loss_w_fp.update(loss_u_w_fp.item())
-            # loss_feature_ali_loss.update(cfg['feat_ali_weight'] * (loss_feature_1.item() + loss_feature_2.item())/2.0)
+            loss_feature_ali_loss.update(cfg['feat_ali_weight'] * (loss_feature_1.item() + loss_feature_2.item())/2.0)
             loss_prote_all.update(cfg['feat_nearest'] * loss_prote.item())
             if epoch>=cfg['warm_up']:
                 if cfg['F-Noise']:
