@@ -7,5 +7,3 @@
 
 # Installation
   After creating a virtual environment of python 3.7, run pip install -r requirements.txt to install all dependencies
-# How to use
-  ## Step 1: data preparation
