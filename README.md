@@ -2,7 +2,8 @@
 # Introduction
  The source code and models for our paper Semi-supervised Semantic Segmentation with Multi-Level Consistency Learning
 
-#Framework
- 
+# Framework
+ <img width="959" alt="image" src="https://github.com/MKSAQW/MLCL/assets/155893338/57768ddf-d479-473e-902d-55089169e270">
 
-<img width="557" alt="image" src="https://github.com/MKSAQW/MLCL/assets/155893338/8b16bb04-7950-4e71-819c-1ffb9200d801">
+# Installation
+  After creating a virtual environment of python 3.7, run pip install -r requirements.txt to install all dependencies
