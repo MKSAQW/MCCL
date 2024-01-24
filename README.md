@@ -11,5 +11,6 @@
 
 # Usage
 ## MLCL
-### Step1:  
+### Step 1:  Prepare the required dataset (Pascal VOC2012 and Cityscapes).
+### Step 2:  Run the following instruction
   
