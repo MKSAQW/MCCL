@@ -9,6 +9,7 @@
 # Installation
   After creating a virtual environment of python 3.7, run pip install -r requirements.txt to install all dependencies
 
-# Our Models DownLoad && Test
-  We have released the weight models on PASCAL VOC in our experiment, you can download here:
+# Usage
+## MLCL
+### Step1:  
   
