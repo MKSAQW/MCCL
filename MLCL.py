@@ -26,11 +26,11 @@ import numpy as np
 import torch.distributed as dist
 from prote import Protetype
 
-parser = argparse.ArgumentParser(description='Revisiting Weak-to-Strong Consistency in Semi-Supervised Semantic Segmentation')
-parser.add_argument('--config', type=str, default="/home/user/HFPL/configs/pascal.yaml")
-parser.add_argument('--labeled-id-path', type=str, default="/home/user/HFPL/splits/pascal/1464/labeled.txt")
-parser.add_argument('--unlabeled-id-path', type=str, default="/home/user/HFPL/splits/pascal/1464/unlabeled.txt")
-parser.add_argument('--save-path', type=str, default="/home/user/HFPL/log_1464_0_0_2")
+parser = argparse.ArgumentParser(description='MLCL')
+parser.add_argument('--config', type=str, default="/home/user/MLCL/configs/pascal.yaml")
+parser.add_argument('--labeled-id-path', type=str, default="/home/user/MLCL/splits/pascal/1464/labeled.txt")
+parser.add_argument('--unlabeled-id-path', type=str, default="/home/user/MLCL/splits/pascal/1464/unlabeled.txt")
+parser.add_argument('--save-path', type=str, default="/home/user/MLCL/log_1464_0_0_2")
 parser.add_argument('--local_rank', default=0, type=int)
 parser.add_argument('--port', default=16107, type=int)
 
