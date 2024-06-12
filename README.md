@@ -3,7 +3,9 @@
  The source code and models for our paper Semi-supervised Semantic Segmentation with Multi-Level Consistency Learning
 
 # Framework
-<img width="745" alt="image" src="https://github.com/MKSAQW/MLCL/assets/155893338/7982cdc1-ac88-480e-a876-5af7f28f617f">
+[net.pdf](https://github.com/user-attachments/files/15802507/net.pdf)
+
+
 
 
 # Installation
