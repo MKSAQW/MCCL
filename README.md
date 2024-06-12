@@ -2,8 +2,6 @@
 # Introduction
  The source code and models for our paper Semi-supervised Semantic Segmentation with Multi-Level Consistency Learning
 
-# Framework
-[net.pdf](https://github.com/user-attachments/files/15802507/net.pdf)
 
 
 
