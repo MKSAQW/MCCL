@@ -35,6 +35,6 @@ You can download the Cityscapes on [this](https://www.cityscapes-dataset.com/).
 <img src="https://github.com/MKSAQW/MLCL/blob/main/Table3.png" width="900" alt="Results on Cityscapes">
 
 #  Comparison of visualization results on Pascal VOC2012 and Cityscapes.
-<img src="https://github.com/MKSAQW/MLCL/blob/main/Visual.png" width="600" alt="Results on Pascal VOC2012">
+<img src="https://github.com/MKSAQW/MLCL/blob/main/Visual.png" width="800" alt="Results on Pascal VOC2012">
 
   
