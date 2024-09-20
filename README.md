@@ -25,7 +25,7 @@ You can download the Cityscapes on [this](https://www.cityscapes-dataset.com/).
 
      CUDA_VISIBLE_DEVICES=0,1,2,3 nohup  python -m torch.distributed.launch --nproc_per_node=4 --master_port=6719   MICL.py >Cityscapes_1_2.log &
 
-#  Results on original Pascal VOC2012.
+<!-- #  Results on original Pascal VOC2012.-->
 <img src="https://github.com/MKSAQW/MICL/blob/main/Table1.png" width="900" alt="Results on original Pascal VOC2012">
 
 #  Results on blended Pascal VOC2012.
