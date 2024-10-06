@@ -18,12 +18,12 @@ You can download the Cityscapes on [this](https://www.cityscapes-dataset.com/).
 ## How to train on Pascal VOC2012
 ### If training is performed on the 1/2 setting, set the configuration file for the VOC dataset, set the path  for labeled data and the path  for unlabeled data, as well as the corresponding training model parameter storage path. Here is an example shell script to run UCCL on Pascal VOC2012 :
 
-     CUDA_VISIBLE_DEVICES=0,1 nohup  python -m torch.distributed.launch --nproc_per_node=2 --master_port=1001   MICL.py >VOC_1_2.log &
+     CUDA_VISIBLE_DEVICES=0,1 nohup  python -m torch.distributed.launch --nproc_per_node=2 --master_port=1001   MCCL.py >VOC_1_2.log &
 
 ## How to train on Cityscapes
 ### If training is performed on the 1/2 setting, set the configuration file for the Cityscapes dataset, set the path  for labeled data and the path  for unlabeled data, as well as the corresponding training model parameter storage path. Here is an example shell script to run UCCL on Pascal VOC2012 :
 
-     CUDA_VISIBLE_DEVICES=0,1,2,3 nohup  python -m torch.distributed.launch --nproc_per_node=4 --master_port=6719   MICL.py >Cityscapes_1_2.log &
+     CUDA_VISIBLE_DEVICES=0,1,2,3 nohup  python -m torch.distributed.launch --nproc_per_node=4 --master_port=6719   MCCL.py >Cityscapes_1_2.log &
 
 <!-- #  Results on original Pascal VOC2012.-->
 <!-- <img src="https://github.com/MKSAQW/MICL/blob/main/Table1.png" width="900" alt="Results on original Pascal VOC2012"> -->
